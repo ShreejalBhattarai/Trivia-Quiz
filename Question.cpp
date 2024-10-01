@@ -21,13 +21,13 @@
 //***********************************************************
 
 Question :: Question(){
-        stem= "";
+        // stem= ""; This is optional, the compiler does it by default
         key='X';
         value = 10;
-        for (int i = 0; i < 4; i++) {
-            answer[i] = "";
-        }
-        hint = "";
+        // for (int i = 0; i < 4; i++) { Same, the default thing
+        //     answer[i] = "";
+        //}
+        // hint = ""; Same thing
 
     }
 

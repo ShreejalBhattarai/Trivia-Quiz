@@ -1,4 +1,4 @@
-// File Name: Question.h
+q// File Name: Question.h
 // Author: Shreejal Bhattarai
 // Collaborators: None
 // Date: 9/25/2024
@@ -9,7 +9,7 @@
 
 
 #include <string>
-
+using namespace std;
 class Question{
 
  private:
