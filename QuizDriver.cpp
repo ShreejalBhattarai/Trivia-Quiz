@@ -37,17 +37,11 @@ int main(){
     Question ques[numberQuestions];
     string q, a[4], hint;
     char k;  
-
-    
     for (int i = 0; i < numberQuestions; ++i) {
-        
         getline(fin, q);
-
-        
         for(int i=0;i<4;i++){
            getline(fin, a[i]);          
           }
-
         getline(fin, hint);
         fin >> k;
 

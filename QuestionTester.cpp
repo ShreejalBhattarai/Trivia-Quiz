@@ -10,7 +10,6 @@
 
 #include <iostream>
 #include <iomanip>
-using namespace std;
 
 #include "questions.h"
 
@@ -22,20 +21,20 @@ int main()
     q1.setAnswers(q1Answers);
     q1.setKey('A');
     
-    cout<< "q1 stem: " << q1.getStem() << endl;
-    cout<< "q1 first answer: " << q1.getAnswer(0) << endl;
-    cout<< "q1 last answer: " << q1.getAnswer(3) << endl;
-    cout <<"q1 correct answer: " << q1.getKey() << endl;
-    cout << endl;
+    std::cout<< "q1 stem: " << q1.getStem() << endl;
+    std::cout<< "q1 first answer: " << q1.getAnswer(0) << endl;
+    std::cout<< "q1 last answer: " << q1.getAnswer(3) << endl;
+    std::cout <<"q1 correct answer: " << q1.getKey() << endl;
+    std::cout << endl;
     
     string q2Answers [] = {"China","India","Mexico","Australia"};
     Question q2("Which country is home to the Kangaroo?",q2Answers,'D',"It's a country that is a continent on its own.");
     
 
     cout << "Value of the question before hint (FYI: whenever you are taking a hint the points are reduced in half): "<< q2.getValue() << endl;
-    cout << q2.ask();
-    cout << "Hint: " << q2.getHint() << endl;
-    cout << "Value of the question after the hint: " << q2.getValue() << endl;
+    std::cout << q2.ask();
+    std::cout << "Hint: " << q2.getHint() << endl;
+    std::cout << "Value of the question after the hint: " << q2.getValue() << endl;
 }
 /* Expected output:
  

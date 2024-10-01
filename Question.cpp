@@ -12,7 +12,6 @@
 
 #include "Question.h"
 #include <iostream>
-using namespace std;
 
 
 //***********************************************************
@@ -76,7 +75,7 @@ string Question :: getStem() const{
     void Question :: ask(int quesno){
         cout<<quesno<<". "<<stem<<endl;
         for(int i=0;i<4;i++){
-            cout<<static_cast<char>('A'+i)<<". "<<answer[i]<<endl;
+            std::cout<<static_cast<char>('A'+i)<<". "<<answer[i]<<endl;
         }
     }
 
