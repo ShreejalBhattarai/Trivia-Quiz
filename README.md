@@ -112,7 +112,7 @@ Your score out of 30: 25
 ## Instructions
 
 Clone the repository to your local machine.
-git clone https://github.com/yourusername/trivia-quiz.git
+git clone https://github.com/shreejal17/trivia-quiz.git
 
 Compile the program.
 g++ -o quiz QuizDriver.cpp Question.cpp
