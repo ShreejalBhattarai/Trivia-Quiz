@@ -120,6 +120,13 @@ g++ -o quiz QuizDriver.cpp Question.cpp
 Run the program.
 ./quiz
 
+##NEW ADD
+makefile has been added and can be used to run the program. 
+Example:
+make 
+./object
+These two commands will now compile and run the program.
+
 **Requirements**
 
 C++11 or later
